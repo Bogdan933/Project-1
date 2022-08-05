@@ -124,24 +124,48 @@ hr {
     margin-bottom: 50px;
 }
 
+/* map */
+#map-wrapper {
+
+    height: 300px;
+    margin-bottom: 107px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+
 /* Footer */
 
-footer{
-    height: 150px;
+footer {
+	background-color: #1b1b6a;
+	padding: 1em;
+	text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
 }
 
-.social-networks{
-    text-align: center;
-
+footer > span {
+	color: silver;
 }
 
-.social-networks li{
-    display: inline;
+footer > a {
+	color: rgb(207, 209, 217);
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 0.8rem;
 }
 
-.social-networks i{
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+footer > p {
+	color: silver;
+}
+
+.text-uppercase {
+    text-transform: none;
 }
