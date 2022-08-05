@@ -6,14 +6,22 @@
     border:0;
 }
 
-body{
+body {
     font-family: Lato, sans-serif;
     color: #3a3a3a;
 }
 
 /* headings and logo */
 
-h1, h2{
+h1 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+
+}
+
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -22,12 +30,12 @@ h1, h2{
 
 /* navigation links */
 
-#menu{
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
 
-#logo, #menu{
+#logo, #menu {
     line-height: 75px;
 }
 
@@ -42,7 +50,7 @@ h1, h2{
     color: inherit;
 }
 
-#menu a:hover{
+#menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -52,14 +60,14 @@ h1, h2{
 
 /* Hero image and cover text */
 
-#hero-outer{
+#hero-outer {
     height:600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#hero-image{
+#hero-image {
     height:600px;
     width: 100%;
     background: url("https://i.imgur.com/dHo8Tzz.jpg") 
@@ -78,4 +86,40 @@ h1, h2{
     to{
         transform: scale(1.1);
     }
+}
+/* benefits */
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
