@@ -74,7 +74,7 @@ h2 {
     no-repeat center center;
     /* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-fill-mode: forwards;
 }
 
@@ -122,4 +122,26 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+}
+
+/* Footer */
+
+footer{
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
