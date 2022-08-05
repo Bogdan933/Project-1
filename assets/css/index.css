@@ -16,7 +16,8 @@ body {
 h1 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
+    text-align: left;
     color: #252525;
 
 }
@@ -31,7 +32,7 @@ h2 {
 /* navigation links */
 
 #menu {
-    font-size: 110%;
+    font-size: 130%;
     letter-spacing: 4px;
 }
 
@@ -78,7 +79,7 @@ h2 {
     animation-fill-mode: forwards;
 }
 
-/* Creates the level of zoom for hero image */
+/*  zoom for hero image */
 @keyframes hero-zoom {
     from{
         transform: scale(1);
@@ -122,6 +123,61 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+}
+
+#welcome {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 200%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url("https://i.imgur.com/CJuLkWo.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* 5 Benefits */
+
+#benefits{
+    background-image: url("https://i.imgur.com/aZQXeBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#benefits div {
+    color: #fafafa;
+    background-color: rgba(0,0,0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#benefits h2 {
+    color: #fafafa;
 }
 
 /* map */
@@ -168,4 +224,91 @@ footer > p {
 
 .text-uppercase {
     text-transform: none;
+}
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px){
+    #club-ethos{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+
+    #left-about, #right-about {
+        width:100%;
+        float:left;
+        padding: 0;
+    }
+
+    #center-about{
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #benefits div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px; 
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text{
+        left:0px;
+    }
+
+    #benefits{
+        width:90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading{
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p{
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+
+    #photo{
+        column-count: 3;
+    }
+}
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px){
+    #photo{
+        column-count: 2;
+    }
 }
