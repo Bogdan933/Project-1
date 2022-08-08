@@ -1,4 +1,6 @@
-Solar Side  
+<h1 text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: left;>Solar Side</h1>  
 
 Website made to display benefits of using solar power, and with a contact form for detailed price information and stronger client relations.  
 
