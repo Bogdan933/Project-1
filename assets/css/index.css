@@ -90,6 +90,13 @@ h2 {
 }
 /* benefits */
 
+#mid-part {
+    background: url("https://i.imgur.com/dHo8Tzz.jpg") center center / cover no-repeat fixed;
+    padding: 1rem 0;
+	margin-bottom: 80px;
+	
+}
+
 #left-about {
     padding-top: 30px;
     width: 33%;
@@ -117,9 +124,18 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-about-heading {
+.right-about {
     width: 60%;
-    float: left;
+    float: center;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    
+}
+
+.right-about-heading p {
+    width: 60%;
+    float: center;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
@@ -166,10 +182,10 @@ hr {
 
 #benefits div {
     color: #fafafa;
-    background-color: rgba(0,0,0, .6);
+    background-color: rgba(0,0,0, .5);
     width: 20%;
     height: 300px;
-    float: left;
+    float: center;
     padding: 30px 0 0 10px;
     text-align: center;
     border: 2px solid white;
@@ -230,7 +246,7 @@ footer > p {
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px){
-    #club-ethos{
+    #mid-part{
         width: 65%;
         height: 1200px;
         margin: 0 auto;
