@@ -73,6 +73,7 @@ h2 {
     width: 100%;
     background: url("https://i.imgur.com/dHo8Tzz.jpg") 
     no-repeat center center;
+    
     /* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
     animation-duration: 7s;
@@ -88,63 +89,7 @@ h2 {
         transform: scale(1.1);
     }
 }
-/* benefits */
-
-#mid-part {
-    background: url("https://i.imgur.com/dHo8Tzz.jpg") center center / cover no-repeat fixed;
-    padding: 1rem 0;
-	margin-bottom: 80px;
-	
-}
-
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
-
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about {
-    width: 60%;
-    float: center;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-    
-}
-
-.right-about-heading p {
-    width: 60%;
-    float: center;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-}
+/* grid parts */
 
 #welcome {
     margin: 20px 0;
@@ -169,10 +114,100 @@ hr {
     border-radius: 50%;
 }
 
-/* 5 Benefits */
+#top-part {
+    height: 300px;
+    width: 100%;
+    padding: 5rem 0;
+	margin-bottom: 300px;
+	}
 
-#benefits{
-    background-image: url("https://i.imgur.com/aZQXeBG.jpg");
+.id-container {
+    display: grid;
+    grid-template-columns: 200px 250px;
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 20px;
+} 
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#mid-grid {
+    background: url("https://i.imgur.com/2DvJKIB.jpg") center center / cover no-repeat fixed;
+    opacity: 0.90;
+    width: 100%;   
+}
+
+.mid-heading-grid {
+    width: 60%;
+    float: center;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    
+}
+
+.mid-heading-grid p {
+    color: #3a3a3a;
+    width: 80%;
+    float: center;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    }
+    
+
+
+#left-grid {
+    background: url("https://i.imgur.com/Rv5usGE.jpg") center center / cover no-repeat fixed;
+    opacity: 0.90;
+    width: 100%;
+    
+}
+
+
+.left-heading-grid {
+    width: 60%;
+    float: center;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.left-heading-grid p {
+    color: aliceblue;
+    width: 80%;
+    float: center;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#right-grid {
+    background: url("https://i.imgur.com/Ofe8v7D.jpg") center center / cover no-repeat fixed;
+    opacity: 0.75;
+    width: 100%;
+    
+    
+}
+.right-heading-grid h2 {
+    color: #cccccc;
+}
+.right-heading-grid p {
+    color: aliceblue;
+    width: 80%;
+    float: center;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+/* 5 Benefits 
+
+#benefits {
+    background-image: url("https://i.imgur.com/XcRRw1y.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -195,6 +230,7 @@ hr {
 #benefits h2 {
     color: #fafafa;
 }
+*/
 
 /* map */
 #map-wrapper {
@@ -246,24 +282,25 @@ footer > p {
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px){
-    #mid-part{
+    #top-part{
         width: 65%;
         height: 1200px;
         margin: 0 auto;
     }
 
     #welcome {
-        padding: 30px 0;
+        
+        padding: 5px 5px;
         margin-top: 0;
     }
 
-    #left-about, #right-about {
+    #left-grid, #right-grid {
         width:100%;
         float:left;
         padding: 0;
     }
 
-    #center-about{
+    #circle-about{
         clear: both;
         width: 100%;
         float: left;
@@ -280,6 +317,7 @@ footer > p {
     hr {
         display: none;
     }
+
 }
 
 /* For medium screens sizes from 950px wide and down */
@@ -303,16 +341,16 @@ footer > p {
         margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading{
+    .left-heading-grid, .right-heading-grid{
         width: inherit;
     }
 
-    .left-about-heading h2, .right-about-heading h2{
+    .left-heading-grid h2, .right-heading-grid h2{
         width: 100%;
         text-align: center;
     }
 
-    .left-about-heading p, .right-about-heading p{
+    .left-heading-grid p, .right-heading-grid p{
         text-align: center;
         padding: 0 20px 0 20px;
     }
