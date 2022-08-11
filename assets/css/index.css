@@ -8,8 +8,18 @@
 
 body {
     font-family: Lato, sans-serif;
-    color: #3a3a3a;
+    color: #fafafa;
+    
+    /*background-size: cover;*/
+    
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    
 }
+
+
 
 /* headings and logo */
 
@@ -18,7 +28,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 5px;
     text-align: left;
-    color: #252525;
+    color: #fafafa;
 
 }
 
@@ -26,7 +36,7 @@ h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #fafafa;
 }
 
 /* navigation links */
@@ -52,11 +62,11 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #fafafa;
 }
 
 .active{
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #fafafa;
 }
 
 /* Hero image and cover text */
@@ -71,6 +81,7 @@ h2 {
 #hero-image {
     height:600px;
     width: 100%;
+    top: 0;
     background: url("https://i.imgur.com/dHo8Tzz.jpg") 
     no-repeat center center;
     
@@ -88,7 +99,7 @@ h2 {
     to{
         transform: scale(1.1);
     }
-}
+} 
 /* grid parts */
 
 #welcome {
@@ -114,125 +125,27 @@ h2 {
     border-radius: 50%;
 }
 
-#top-part {
-    height: 300px;
-    width: 100%;
-    padding: 5rem 0;
-	margin-bottom: 300px;
-	}
-
-.id-container {
+.card-grid {
+    height: 50%;
     display: grid;
-    grid-template-columns: 200px 250px;
-    grid-auto-rows: minmax(150px, auto);
-    grid-gap: 20px;
-} 
+    gap: 1rem;
 
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
-
-#mid-grid {
-    background: url("https://i.imgur.com/2DvJKIB.jpg") center center / cover no-repeat fixed;
-    opacity: 0.90;
-    width: 100%;   
-}
-
-.mid-heading-grid {
-    width: 60%;
-    float: center;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-    
-}
-
-.mid-heading-grid p {
-    color: #3a3a3a;
-    width: 80%;
-    float: center;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-    }
-    
+    /* 1 too skinny, too much code */
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+  
+    /* 2 cleaner code */
+     grid-template-columns: repeat(5, 1fr); 
+  
+    /* 3  better sizing, but overflows */
+     grid-template-columns: repeat(5, minmax(240px, 1fr)); 
+  
+    /* 4 final */
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+ }
 
 
-#left-grid {
-    background: url("https://i.imgur.com/Rv5usGE.jpg") center center / cover no-repeat fixed;
-    opacity: 0.90;
-    width: 100%;
-    
-}
 
-
-.left-heading-grid {
-    width: 60%;
-    float: center;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.left-heading-grid p {
-    color: aliceblue;
-    width: 80%;
-    float: center;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-#right-grid {
-    background: url("https://i.imgur.com/Ofe8v7D.jpg") center center / cover no-repeat fixed;
-    opacity: 0.75;
-    width: 100%;
-    
-    
-}
-.right-heading-grid h2 {
-    color: #cccccc;
-}
-.right-heading-grid p {
-    color: aliceblue;
-    width: 80%;
-    float: center;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-/* 5 Benefits 
-
-#benefits {
-    background-image: url("https://i.imgur.com/XcRRw1y.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-}
-
-#benefits div {
-    color: #fafafa;
-    background-color: rgba(0,0,0, .5);
-    width: 20%;
-    height: 300px;
-    float: center;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-}
-
-#benefits h2 {
-    color: #fafafa;
-}
-*/
-
-/* map */
+/* map 
 #map-wrapper {
 
     height: 300px;
@@ -243,7 +156,7 @@ hr {
     height: 100%;
     width: 100%;
     border: none;
-}
+}*/
 
 
 /* Footer */
@@ -294,30 +207,13 @@ footer > p {
         margin-top: 0;
     }
 
-    #left-grid, #right-grid {
-        width:100%;
-        float:left;
-        padding: 0;
-    }
-
+    
     #circle-about{
         clear: both;
         width: 100%;
         float: left;
         padding: 0;
-    }
-
-    #benefits div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
-
-    hr {
-        display: none;
-    }
-
+    }  
 }
 
 /* For medium screens sizes from 950px wide and down */
@@ -334,28 +230,7 @@ footer > p {
     #cover-text{
         left:0px;
     }
-
-    #benefits{
-        width:90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .left-heading-grid, .right-heading-grid{
-        width: inherit;
-    }
-
-    .left-heading-grid h2, .right-heading-grid h2{
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-heading-grid p, .right-heading-grid p{
-        text-align: center;
-        padding: 0 20px 0 20px;
-    }
-
-    #photo{
+     #photo{
         column-count: 3;
     }
 }
@@ -366,3 +241,54 @@ footer > p {
         column-count: 2;
     }
 }
+
+.animated-grid {
+    
+    height: 85vh;
+    margin-bottom: 150px;
+  
+    display: grid;
+    gap: 3rem;
+  
+    /* Explicit grid */
+    grid-template-areas:
+      'a  b  c';
+  
+    grid-template-rows: repeat(3, 100%);
+    grid-template-columns: auto auto auto ;
+  
+    --stagger-delay: 100ms;
+  }
+  
+  @keyframes cardEntrance {
+    from {
+      opacity: 0;
+      transform: scale(0.3);
+      filter: hue-rotate(180deg);
+    }
+    to {
+      opacity: 1;
+      transform: scale(0.9);
+      filter: hue-rotate(0deg);
+    }
+  }
+  
+  .card {
+    background-color: rgb(36, 243, 147);
+    animation: cardEntrance 700ms ease-out;
+    animation-fill-mode: backwards;
+  }
+  
+  .card:nth-child(1) {
+    grid-area: a;
+    animation-delay: calc(1 * var(--stagger-delay));
+  }
+  .card:nth-child(2) {
+    grid-area: b;
+    animation-delay: calc(2 * var(--stagger-delay));
+  }
+  .card:nth-child(3) {
+    grid-area: c;
+    animation-delay: calc(3 * var(--stagger-delay));
+  }
+  
