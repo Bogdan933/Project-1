@@ -8,8 +8,7 @@
 
 body {
     font-family: Lato, sans-serif;
-    background-color: #b3d9ff;
-    
+    background-color: #fafafa;
     /*background-size: cover;*/
     
     width: 100%;
@@ -28,7 +27,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 5px;
     text-align: left;
-    color: #fafafa;
+    color: #000000;
 
 }
 
@@ -36,12 +35,20 @@ h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #fafafa;
+    color: #000000;
+}
+.solar {
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #000000;
 }
 
 /* navigation links */
 
 #menu {
+    color: #000000;
     font-size: 130%;
     letter-spacing: 4px;
 }
@@ -62,11 +69,11 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #fafafa;
+    border-bottom: 1px solid #000000
 }
 
 .active{
-    border-bottom: 1px solid #fafafa;
+    border-bottom: 1px solid #000000
 }
 
 /* Hero image and cover text */
@@ -80,15 +87,42 @@ h2 {
 
 #hero-image {
     height:600px;
-    width: 100%;
-    top: 0;
+    display: flex;
+    flex-direction: column;
     background: url("https://i.imgur.com/dHo8Tzz.jpg") 
     no-repeat center center;
+    align-self: center;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    
     
     /* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
     animation-duration: 7s;
     animation-fill-mode: forwards;
+}
+.cover-text {
+    font-size: 1.4rem;
+    text-align: center;
+    color: #000000;
+}
+
+.wrap-section {
+    padding: 16px;
+    margin-bottom: var(40px);
+    overflow: hidden;
+    padding-bottom: var(40px);
+}
+
+.wrap-content {
+	font-weight: 400;
+    width: 300px;
+}
+
+.main-content {
+    vertical-align:top;
 }
 
 /*  zoom for hero image */
@@ -111,10 +145,10 @@ h2 {
 #circle-container {
     width: 300px;
     height: 300px;
-    padding: 30px;
+    padding: 15px;
     border-style: solid;
-    border-color: #cccccc;
-    border-width: 1px;
+    border-color: #a9a9a9;
+    border-width: 3px;
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -123,7 +157,18 @@ h2 {
     background: url("https://i.imgur.com/CJuLkWo.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    animation-name: circle-zoom;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
 }
+@keyframes circle-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+} 
 
 
 /* map 
@@ -300,7 +345,7 @@ footer > p {
     grid-template-columns: 1fr 1fr 1fr;
 }
 .bottom-grid h2 {
-    color: #993d00;
+    color: #000000;
     text-align: center;
     font-size: 80%;
     letter-spacing: 1px;
@@ -308,13 +353,40 @@ footer > p {
 }
 
 .bottom-grid p {
-    text-align: center;
+    color: #000000;
+    text-align: left;
     font-size: 100%;
-    letter-spacing: 4px;    
+    letter-spacing: 4px;
+    background-color: #a7adba;
+    opacity: 0.9;    
 }
 
+ 
+    /*font-size: 60%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;*/
+
+
+
+
+
+
 #benefits {
-    color: #993d00;
+    color: #000000;
     padding: 5px 5px 5px 5px;
     margin: 50px;
     gap: 1rem;
@@ -326,7 +398,7 @@ footer > p {
 
 #benefits div {
     position: relative;
-    color: #993d00;
+    color: #000000;
     width: 40%;
     height: 90px;
     padding: 0 0 0 0;
@@ -337,5 +409,5 @@ footer > p {
 
 #benefits h2 {
     text-align: left;
-    color: #993d00;
+    color: #000000;
 }
