@@ -17,8 +17,6 @@ body {
     
 }
 
-
-
 /* headings and logo */
 
 h1 {
@@ -108,30 +106,27 @@ h2 {
     text-align: center;
     color: #000000;
 }
-
+/* main content */
 .wrap-section {
-    text-align: justify;
+    margin: 0 auto;
     
-    padding: 16px;
-    margin-bottom: var(40px);
+    text-align: justify;
     overflow: hidden;
-    padding-bottom: var(40px);
+    
 }
-
 
 .wrap-content {
 	text-align: center;
-    width:400px;
-    font-weight: 400;
+    width:100%;
+    font-weight: 100;
     margin-top: 2rem;
 }
 
 .main-content {
-    padding-left: 40rem;
-    padding-right: 40rem;
+    padding: 20rem 0 13rem 0;
     text-align: center;
     font-size: xx-large;
-    width:400px;
+    width: 100%;
     margin-bottom: 1rem;
 }
 
@@ -270,7 +265,7 @@ footer > p {
         left:0px;
     }
      #photo{
-        column-count: 3;
+        column-count: 2;
     }
     .column img {
     
@@ -288,42 +283,48 @@ footer > p {
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px){
     #photo{
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
         column-count: 2;
     }
 }
 
 .bottom-grid {
+    /*background-image: url('https://i.imgur.com/Ofe8v7D.jpg');*/
+    width: 69%;
+    height: 69%;
     border: outset;
     font: bold;
-    white-space: pre-line;
+    padding-left: 10rem;
+    padding-right: 15rem;
     display: grid;
-    gap: 2rem;
+    gap: 3rem;
     margin-top: 1rem;
-    margin-bottom: 5px;
+    margin-bottom: 1rem;
     font-size: 130%;
     letter-spacing: 4px;
     grid-template-columns: 1fr 1fr;
     
 }
 .bottom-grid h2 {
-    
     text-align: center;
     font-size: 130%;
     letter-spacing: 1px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     
 }
 
 /* contacts */
 
 #contact {
-    background-color: #A9DBB8;
-    
+    background-color: #CCDDD3;
+    height: 25%;
     margin-bottom: 5px;
 }
 
 .contact-boxes-container {
-    width: 66%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -354,4 +355,20 @@ footer > p {
     text-align: center;
 }
 
+th,
+td {
+    border-bottom: 1px solid black;
+}
 
+/* Image gallery */
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photo img{
+    width: 100%;
+}
