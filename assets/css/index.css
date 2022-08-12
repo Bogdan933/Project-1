@@ -10,7 +10,6 @@ body {
     font-family: Lato, sans-serif;
     background-color: #fafafa;
     /*background-size: cover;*/
-    
     width: 100%;
     position: relative;
     top: 0;
@@ -110,19 +109,28 @@ h2 {
 }
 
 .wrap-section {
+    text-align: center;
     padding: 16px;
     margin-bottom: var(40px);
     overflow: hidden;
     padding-bottom: var(40px);
 }
 
+
+
 .wrap-content {
-	font-weight: 400;
-    width: 300px;
+	text-align: center;
+    width:600px;
+    font-weight: 400;
+    margin-top: 2rem;
 }
 
 .main-content {
-    vertical-align:top;
+    text-align: center;
+    font-size: xx-large;
+    width:600px;
+    font-weight: 400;
+    margin-bottom: 1rem;
 }
 
 /*  zoom for hero image */
@@ -137,20 +145,23 @@ h2 {
 /* grid parts */
 
 .grid-row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+    gap: 2rem;
+    display: grid;
+    padding: 0 6px 0 6px;
   }
   
   /* Create two equal columns that sits next to each other */
-  .column {
-    flex: 50%;
-    padding: 0 4px;
+.column {
+    gap: 2rem;
+    display: grid;
+    padding: 0 6px 0 6px;
   }
   
-  .column img {
+.column img {
+    
     margin-top: 8px;
-    vertical-align: middle;
+    vertical-align: center;
+    grid-column: 2;
   }
 
 #welcome {
@@ -159,7 +170,7 @@ h2 {
     font-size: 200%;
 }
 
-/* map 
+
 #map-wrapper {
 
     height: 300px;
@@ -170,7 +181,7 @@ h2 {
     height: 100%;
     width: 100%;
     border: none;
-}*/
+}
 
 
 /* Footer */
@@ -222,14 +233,6 @@ footer > p {
     }
 
     
-    #circle-about{
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }  
-
-    
     #benefits div {
         width: 100%;
         clear: both;
@@ -240,6 +243,20 @@ footer > p {
     hr {
         display: none;
     }
+    .bottom-grid {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+        margin: auto;
+    }
+    .column img {
+    
+        margin-top: 8px;
+        vertical-align: middle;
+        grid-column: 2;
+      }
+    
 }
 
 /* For medium screens sizes from 950px wide and down */
@@ -259,6 +276,13 @@ footer > p {
      #photo{
         column-count: 3;
     }
+    .column img {
+    
+        margin-top: 8px;
+        vertical-align: middle;
+        grid-column: 2;
+      }
+    
 }
 
 /* For small screens sizes from 800px wide and down */
@@ -268,105 +292,32 @@ footer > p {
     }
 }
 
-.animated-grid {
-    
-    height: 85vh;
-    margin-bottom: 150px;
-  
-    display: grid;
-    gap: 1rem;
-  
-    /* Explicit grid */
-    grid-template-areas:
-      'a  b  c';
-  
-    grid-template-rows: repeat(3, 65%);
-    grid-template-columns: auto auto auto ;
-  
-    --stagger-delay: 100ms;
-  }
-  
-  @keyframes cardEntrance {
-    from {
-      opacity: 0;
-      transform: scale(0.3);
-      filter: hue-rotate(180deg);
-    }
-    to {
-      opacity: 1;
-      transform: scale(0.9);
-      filter: hue-rotate(0deg);
-    }
-  }
-  
-  .card {
-    
-    gap: 1rem;
-    background-color: rgb(36, 243, 147);
-    animation: cardEntrance 700ms ease-out;
-    animation-fill-mode: backwards;
-  }
-  
-  .card:nth-child(1) {
-    grid-area: a;
-    animation-delay: calc(1 * var(--stagger-delay));
-  }
-  .card:nth-child(2) {
-    grid-area: b;
-    animation-delay: calc(2 * var(--stagger-delay));
-  }
-  .card:nth-child(3) {
-    grid-area: c;
-    animation-delay: calc(3 * var(--stagger-delay));
-  }
-
 .bottom-grid {
+    display: grid;
     gap: 4rem;
+    margin-top: 2rem;
     font-size: 130%;
     letter-spacing: 4px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    
 }
 .bottom-grid h2 {
-    color: #000000;
+    
     text-align: center;
     font-size: 80%;
     letter-spacing: 1px;
     grid-template-columns: 1fr;
+    
 }
 
 .bottom-grid p {
+    height: 250px;
     color: #000000;
     text-align: left;
     font-size: 100%;
-    letter-spacing: 4px;
-    background-color: #a7adba;
-    opacity: 0.9;    
+    letter-spacing: 4px;  
+    column-count: 1;  
 }
-
- 
-    /*font-size: 60%;
-    font-family: Oswald;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(241, 109, 107, .7);
-
-    bottom: 30px;
-    right: 150px;
-
-    position: absolute;*/
-
-
-
-
-
 
 #benefits {
     color: #000000;
@@ -386,8 +337,7 @@ footer > p {
     height: 90px;
     padding: 0 0 0 0;
     text-align: auto;
-    
-    
+      
 }
 
 #benefits h2 {
