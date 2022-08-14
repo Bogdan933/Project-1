@@ -84,28 +84,24 @@ h2 {
 }
 
 #hero-image {
+    background: url("https://i.imgur.com/dHo8Tzz.jpg") 
+    no-repeat center center;
     height:600px;
     display: flex;
     flex-direction: column;
-    background: url("https://i.imgur.com/dHo8Tzz.jpg") 
-    no-repeat center center;
     align-self: center;
     background-size: cover;
     background-attachment: fixed;
     align-items: center;
     justify-content: center;
-    
-    
+
     /* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
     animation-duration: 7s;
     animation-fill-mode: forwards;
 }
-.cover-text {
-    font-size: 1.4rem;
-    text-align: center;
-    color: #000000;
-}
+
+
 /* main content */
 .wrap-section {
     margin: 0 auto;
@@ -239,36 +235,25 @@ footer > p {
 
 /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px){
-    #top-part{
+    #hero-outer{
         width: 65%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    #welcome {
-        
-        padding: 5px 5px;
-        margin-top: 0;
-    }
-
     
-    #benefits div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
-
-    hr {
-        display: none;
-    }
-    .bottom-grid {
+    .grid-container div {
         width: 100%;
         clear: both;
         height: 150px;
         padding: 0;
         margin: auto;
     }
+
+    hr {
+        display: none;
+    }
+    
     .column img {
     
         margin-top: 8px;
@@ -305,7 +290,13 @@ footer > p {
       .main-content {
         vertical-align: middle;
       }
-    
+      
+      #hero-image{
+        width: 100%;
+        height: 600px;
+        margin: 0 auto;
+    }
+
 }
 
 /* For small screens sizes from 800px wide and down */
@@ -316,31 +307,50 @@ footer > p {
         max-width: 50%;
         column-count: 2;
     }
+
+    #hero-image{
+        width: 100%;
+        height: 600px;
+        margin: 0 auto;
+    }
 }
 
 .bottom-grid {
-    /*background-image: url('https://i.imgur.com/Ofe8v7D.jpg');*/
-    width: 69%;
-    height: 69%;
-    border: outset;
-    font: bold;
-    padding-left: 10rem;
-    padding-right: 15rem;
-    display: grid;
-    gap: 3rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-size: 130%;
-    letter-spacing: 4px;
-    grid-template-columns: 1fr 1fr;
+ padding: 3em;
+ display: grid;
+ grid-gap: 2em;
     
 }
-.bottom-grid h2 {
-    text-align: center;
-    font-size: 130%;
-    letter-spacing: 1px;
-    grid-template-columns: 1fr 1fr;
+.ben-1 {
+    padding: 2em;
+    border-radius: .3em;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0,1)
+}
+
+.ben-1 p {
+    margin-top: 0;
+}
+
+.ben-1 span {
+    font-weight: bold;
+    position: relative;
+    margin-left: 15px;
+}
+
+@media (min-width: 550px) {
+    .bottom-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
     
+}
+
+@media (min-width: 750px) {
+    .bottom-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #hero-image {
+        width: 100%;
+    }
 }
 
 /* contacts */
@@ -457,6 +467,16 @@ td {
   .container .box .dream{
     width: 100%;
   }
+
+  
+
+  .grid-container div {
+    width: 100%;
+    clear: both;
+    height: 150px;
+    padding: 0;
+    margin: auto;
+}
   
   }
   
@@ -581,3 +601,4 @@ textarea{
 		height: 200px;
 	}
 }
+
