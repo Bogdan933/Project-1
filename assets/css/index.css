@@ -202,29 +202,6 @@ footer > p {
     font-size: 1.2rem;
 }
 
-.text-uppercase-contact {
-    background-color: #44CF6C;
-	padding: 1em;
-	text-align: center;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    z-index: 3;
-}
-.text-uppercase-contact > span {
-	color: #fafafa;
-    font-size: 1.2rem;
-    text-decoration: none;
-}
-
-.text-uppercase-contact > a {
-	color: #fafafa;
-	text-decoration: none;
-	padding: 0 15px;
-	font-size: 1.2rem;
-}
-
 .text-uppercase-contact > p {
 	color: #fafafa;
     font-size: 1.2rem;
@@ -613,4 +590,6 @@ textarea{
 	}
 	
 }
+
+
 
