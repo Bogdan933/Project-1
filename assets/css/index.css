@@ -224,7 +224,7 @@ footer > p {
 
     #menu{
         clear: left;
-        float: left;
+        float: right;
         margin-left: 30px; 
         margin-bottom: 20px;
         line-height: 25px;
@@ -353,19 +353,41 @@ td {
 
 /* Image gallery */
 
-#photo {
-    clear: both;
-    line-height: 0;
-    column-count: 1;
-    column-gap: 10px;
-    margin: 0 0 0 0; 
+.holdingcontainer {
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+    padding-bottom: 60px;
     
 }
-
-
-#photo img{
-    width: 100%;
+.panels {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
 }
+
+.panels img {
+    width: 100%;
+    height: auto;
+}
+
+
+.poly {
+    padding: 15px;
+    text-align: center;
+}
+
+.mono{
+    padding: 15px;
+    text-align: center;
+}
+
+.thin{
+    padding: 15px;
+    text-align: center;
+}
+
 
 .container {
     display: flex;
@@ -396,7 +418,9 @@ td {
   
   @media only screen and (max-width: 769px){
    
-  
+    .holdingcontainer {
+        flex-direction: column;
+    }
 
   .grid-container div {
     width: 100%;
