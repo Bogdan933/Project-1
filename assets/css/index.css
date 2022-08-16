@@ -198,13 +198,14 @@ footer>span {
 footer>a {
     color: rgb(207, 209, 217);
     text-decoration: none;
-    padding: 0 15px;
-    font-size: 0.8rem;
+    padding: 0 5px;
+    font-size: 1rem;
 }
 
 footer>p {
     color: silver;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 
@@ -328,55 +329,10 @@ footer>p {
     }
 }
 
-/* contacts */
-
-#contact {
-    background-color: #CCDDD3;
-    height: 25%;
-    margin-bottom: 5px;
-}
-
-.contact-boxes-container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.contact-box-left {
-    width: 250px;
-    margin-top: -20px;
-    float: left;
-}
-
-.contact-box-right {
-    width: 250px;
-    text-align: right;
-    margin-top: -20px;
-    float: right;
-}
-
-.spacer {
-    clear: both;
-}
-
-.contact-box-center {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.text-center {
-    text-align: center;
-}
-
-th,
-td {
-    border-bottom: 1px solid black;
-}
-
 /* Image gallery */
 
 .holdingcontainer {
+    display: flex;
     max-width: 1200px;
     margin: auto;
     overflow: auto;
