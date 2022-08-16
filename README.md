@@ -14,6 +14,22 @@ The main image is an wide image of solar pannels with added zoom, animation dura
 Credit to Code Institute for their Love Running module where they teached for the animation of the hero image.
 <img src="images/hero.image.png">
 
+GALLERY
+
+For the Panel Gallery heading i style i credit Tech2 etc youtube link is: 
+https://www.youtube.com/watch?v=Trw_9lisYVY&t=798s&ab_channel=Tech2etc
+
+Link to document: https://drive.google.com/drive/folders/1tHCYW4uvWmWTbGcQZlRvYxval1IAO8xS
+<img src="https://i.imgur.com/EgI0NOV.png">
+
+I made a normal 3 box flex container for the 3 typs of solar images since it was the method that worked best for me
+The 3 images flex direction into colum at 765px X.
+<img src="https://i.imgur.com/bhMS95V.png">
+
+On big devices the 3 images display in a line.
+
+<img src="https://i.imgur.com/6nNpw5Q.png">
+
 
 
 I want to credit the contact form to Sefyudem, https://github.com/sefyudem/Contact-Us-Form/blob/master/style.css
@@ -32,9 +48,21 @@ Smaller display for a clean minimalistic look.
 
 
 
-For the Panel Gallery heading i style i credit Tech2 etc youtube link is: 
-https://www.youtube.com/watch?v=Trw_9lisYVY&t=798s&ab_channel=Tech2etc
+For Better user experience i added a 4 grid fixed background for smoother transition to the bottom grid With Profitability text.
+<img src="https://i.imgur.com/e19ktLe.png">
 
-Link to document: https://drive.google.com/drive/folders/1tHCYW4uvWmWTbGcQZlRvYxval1IAO8xS
-<img src="https://i.imgur.com/EgI0NOV.png">
+Profitability grid 
+
+<img src="https://i.imgur.com/RKanDub.png">
+
+Its colapsing into 2 colums at 745 x display
+
+<img src="https://i.imgur.com/fuyrKGa.png"> 
+
+And at 549 x it's 1 colum scroll 
+<img src="https://i.imgur.com/G1zPdv8.png">
+
+
+Footer with Copyright and social links with icons
+<img src="https://i.imgur.com/gEgcg2k.png">
 
