@@ -354,16 +354,25 @@ footer>p {
 
 
 .poly {
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
     padding: 15px;
     text-align: center;
 }
 
 .mono {
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
     padding: 15px;
     text-align: center;
 }
 
 .thin {
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
     padding: 15px;
     text-align: center;
 }
