@@ -308,6 +308,7 @@ footer>p {
 }
 
 .ben-1 span {
+    text-decoration: underline;
     font-weight: bold;
     position: relative;
     margin-left: 15px;
