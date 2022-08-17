@@ -171,10 +171,11 @@ h2 {
 }
 
 .grid-container>div {
-    color: #fafafa;
+    text-decoration-line: underline;
+    color: #ADF6B1;
     text-align: center;
     padding: 20px 0;
-    font-size: 200%;
+    font-size: 220%;
 }
 
 

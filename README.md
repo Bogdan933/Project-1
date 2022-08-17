@@ -1,4 +1,4 @@
-<h1>Solar Side</h1>
+<h1>Solar Side</h1> 
 
 SEO score 
 <img src="https://i.imgur.com/vzoeCqY.png">
