@@ -1,6 +1,6 @@
 <h1>Solar Side</h1> 
 
-SEO score 
+<li>SEO score</li> 
 <img src="https://i.imgur.com/vzoeCqY.png">
 
 Website made to display benefits of using solar power and with a gallery displaying the 3 types of solar panel materials that can be used, and with a contact form for further questions.  
@@ -8,29 +8,29 @@ Website made to display benefits of using solar power and with a gallery display
 <p><img src="https://i.imgur.com/J90AUy2.png"></p>
 
 
-<h1>Menu</h1> 
-<p>Will olso showcase an array of innovating idea's via Menu navigation > Inspiration gallery,  
-Style link
- <img src="images/menunav.png"></p>
+<h1>Menu and main image</h1> 
+<li>Will olso showcase the 3 types of solar panels via Menu navigation > Gallery</li> 
+
+ <img src="https://i.imgur.com/4lTOugA.png">
 
 
-The main image is an wide image of solar pannels with added zoom, animation duration is 7 seconds to full static picture.
-Credit to Code Institute for their Love Running module where they teached for the animation of the hero image.
+<p><strong>Credit to Code Institute for their Love Running module where they teached for the animation of the hero image.</strong>
+<li>The main image is an wide image of solar pannels with added zoom, animation duration is 7 seconds to full static picture.</li>
 <img src="images/hero.image.png">
 
 <h1>GALLERY</h1>
 
-<p><strong>For the Panel Gallery heading i style i credit Tech2 etc youtube link is: 
+<p><strong>For the Panel Gallery heading underline idea I want to give credit Tech2, youtube link is: 
 https://www.youtube.com/watch?v=Trw_9lisYVY&t=798s&ab_channel=Tech2etc
 
 Link to document: https://drive.google.com/drive/folders/1tHCYW4uvWmWTbGcQZlRvYxval1IAO8xS</strong>
 <img src="https://i.imgur.com/EgI0NOV.png">
 
-I made a normal 3 box flex container for the 3 typs of solar images since it was the method that worked best for me
-The 3 images flex direction into colum at 765px X.
+<li>I made a normal 3 box flex container for the 3 typs of solar images since it was the method that worked best for me
+The 3 images flex direction into colum at 765px X.</li>
 <img src="https://i.imgur.com/bhMS95V.png">
 
-On big devices the 3 images display in a line.
+<li>On big devices the 3 images display in a line.</li>
 
 <img src="https://i.imgur.com/6nNpw5Q.png"></p>
 
@@ -39,11 +39,11 @@ On big devices the 3 images display in a line.
 
 <p><strong>I want to credit the contact form to Sefyudem, https://github.com/sefyudem/Contact-Us-Form/blob/master/style.css</strong>
 
-I added the solar panel check list next to the text input for better user experience and information. 
+<li>I added the solar panel check list next to the text input for better user experience and information. 
 Back ground image aswell is changed and i choose that background because of the ambiet orange light and white it displays.
-Container-box right (solar checklist image) is set to display:none; when viewed on mobile devices and is only visible on 1200px and up.
+Container-box right (solar checklist image) is set to display:none; when viewed on mobile devices and is only visible on 1200px and up.</li>
 
-Preview of the contact page on big display.
+<li>Preview of the contact page on big display.</li>
 
 <img src="https://i.imgur.com/FBdCtIn.png">
 
@@ -54,7 +54,7 @@ Preview of the contact page on big display.
 
 
 <h1><strong>Benefits with fixed backkground</strong></h1>
-<p>For Better user experience i added a 4 grid fixed background for smoother transition to the bottom grid With Profitability text.
+<li>I added a 4 grid fixed background for smoother transition to the bottom grid With Profitability text.</li>
 <img src="https://i.imgur.com/e19ktLe.png">
 
 Profitability grid. 
@@ -71,4 +71,13 @@ Profitability grid.
 
 <h1><strong>Footer with Copyright and social links with icons</strong></h1>
 <img src="https://i.imgur.com/gEgcg2k.png">
+
+
+<h1>User feedback/bugs found</h1>
+
+<li>When opening from some IOS devices the panel header miss-aligns</li>
+<img src="https://i.imgur.com/1VZ4SIu.png">
+
+<li>On mobile device display ratio, the menu tab 'Home' is under contact form and not forming all 3 in row. This problem is only in Gallery and Contact Form pages</li>
+<img src="https://i.imgur.com/xYrFqdg.png">
 
