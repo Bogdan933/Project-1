@@ -1,7 +1,8 @@
 <h1>Solar Side</h1> 
-Website made to display benefits of using solar power and with a gallery displaying the 3 types of solar panel materials that can be used, and with a contact form for further questions.  
+Website made to display benefits of using solar power and with a gallery displaying the 3 types of solar panel materials that can be used, and with a contact form for further questions.
+<li>Clients intrested in solar pannel types and wanting to know more.</li>  
 
-<p><img src="https://i.imgur.com/J90AUy2.png"></p>
+<p><img src="https://i.imgur.com/LRsjibu.png"></p>
 
 
 <h1>Menu and main image</h1> 
