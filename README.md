@@ -91,5 +91,5 @@ Profitability grid.
 <li>Lighthouse mobile score</li>
 <h2><img src="https://i.imgur.com/Fe6Itr1.png"></h2>
 <li>Lighthouse Desktop score</li>
-<h2><img src="https://i.imgur.com/Fe6Itr1.png"></h2>
+<h2><img src="https://i.imgur.com/YDqivaX.png"></h2>
 
