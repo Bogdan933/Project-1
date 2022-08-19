@@ -7,6 +7,7 @@
 }
 
 body {
+    block-size: fit-content;
     font-family: Lato, sans-serif;
     background-color: #fafafa;
     /*background-size: cover;*/
@@ -208,34 +209,6 @@ footer>p {
     font-size: 1rem;
     padding-bottom: 0.5rem;
 }
-
-
-
-/* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    #hero-image {
-        width: 65%;
-        height: 600px;
-        margin: 0 auto;
-    }
-
-
-    .grid-container div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-        margin: auto;
-    }
-
-    hr {
-        display: none;
-    }
-
-
-
-}
-
 
 .bottom-grid {
     padding: 5em;
