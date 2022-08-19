@@ -80,7 +80,11 @@ Profitability grid.
 
 <li>On mobile device display ratio, the menu tab 'Home' is under contact form and not forming all 3 in row. This problem is only in Gallery and Contact Form pages</li>
 <p>This seems to have been fixed by adding the block-size: fit-content rule to body for 950px and down, code line 460.</p>
-<img src="https://i.imgur.com/xYrFqdg.png">
-<p>I have fixed this by changing the margin-right of #menu li from 30px to 25px, code line 59.</p>
+<li>ONGOING issue: Seems there is a bug where opening developer tools makes the site aligs to much to the right but when viewed another time it perfectly fits. I have not found a fix for yet and i will continue trying to pin it down.</li>
+<img src="https://i.imgur.com/2gvTQVE.png">
+<hr>
+<h1>Menu bug</h1>
+I have fixed this by changing the margin-right of #menu li from 30px to 25px, code line 59.
 <img src="https://i.imgur.com/qBZvLmi.png">
+<img src="https://i.imgur.com/xYrFqdg.png">
 
