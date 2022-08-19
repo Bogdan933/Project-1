@@ -1,8 +1,4 @@
 <h1>Solar Side</h1> 
-
-<li>SEO score</li> 
-<img src="https://i.imgur.com/vzoeCqY.png">
-
 Website made to display benefits of using solar power and with a gallery displaying the 3 types of solar panel materials that can be used, and with a contact form for further questions.  
 
 <p><img src="https://i.imgur.com/J90AUy2.png"></p>
@@ -84,7 +80,15 @@ Profitability grid.
 <img src="https://i.imgur.com/2gvTQVE.png">
 <hr>
 <h1>Menu bug</h1>
-I have fixed this by changing the margin-right of #menu li from 30px to 25px, code line 59.
+<h2>>I have fixed this by changing the margin-right of #menu li from 30px to 25px, code line 59.
 <img src="https://i.imgur.com/qBZvLmi.png">
-<img src="https://i.imgur.com/xYrFqdg.png">
+<img src="https://i.imgur.com/xYrFqdg.png"></h2
+
+<h1>SEO and lighthouse scores</h1> 
+<h2><img src="https://i.imgur.com/MoHFB99.png"></h2>
+
+<li>Lighthouse mobile score</li>
+<h2><img src="https://i.imgur.com/Fe6Itr1.png"></h2>
+<li>Lighthouse Desktop score</li>
+<h2><img src="https://i.imgur.com/Fe6Itr1.png"></h2>
 
