@@ -5,7 +5,7 @@ body {
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-    padding-top: 0px;
+    
 }
 
 section h1 {
@@ -33,7 +33,11 @@ form {
 textarea{
 	  background: rgba(0, 0, 0, 0.4); 
     width: 894px;
+    min-width: 894px;
+    max-width: 894px;
     height: 110px;
+    min-height: 110px;
+    max-height: 110px;
     border: none;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -49,7 +53,7 @@ textarea{
     padding-right: 20px;
     padding-top: 12px;
     margin-bottom: 20px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 select {
