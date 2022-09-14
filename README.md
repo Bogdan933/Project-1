@@ -1,19 +1,44 @@
-<h1>Solar Side</h1> 
+# Solar 
 Website made to display benefits of using solar power and with a gallery displaying the 3 types of solar panel materials that can be used, and with a contact form for further questions.
 <li>Clients intrested in solar pannel types and wanting to know more.</li>  
 
-<p><img src="https://i.imgur.com/LRsjibu.png"></p>
+![Responsice Mockup](https://i.imgur.com/LRsjibu.png)
 
+## Features
 
-<h1>Menu and main image</h1> 
-<li>Will olso showcase the 3 types of solar panels via Menu navigation > Gallery</li> 
+### Existing Features
 
- <img src="https://i.imgur.com/4lTOugA.png">
+- __Navigation Bar__
 
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+![Nav Bar](https://i.imgur.com/4lTOugA.png)
+ 
 
-<p><strong>Credit to Code Institute for their Love Running module where they teached for the animation of the hero image.</strong>
-<li>The main image is an wide image of solar pannels with added zoom, animation duration is 7 seconds to full static picture.</li>
-<img src="images/hero.image.png">
+- __The landing page image__
+
+  - The landing includes a photograph with text overlay to allow the user to see exactly what the site would be applicable to. 
+  - This section introduces the user to solar panels with an eye catching animation to grab their attention
+
+![Landing Page](https://i.imgur.com/XLrkz1f.png)
+
+- __Guaranteed Benefits section__
+
+  - The solar benefits section will allow the user to see the benefits of using solar enegy, as well as the warranty of the overall product. 
+  - This user will see the value of aproaching the solar industry. This should encourage the user to consider pro's of this lifestyle.
+
+- __4 Detailed Benefits__
+
+  - This section will allow the user to see exactly in more detail the several major benefits. 
+  - This section will be updated as with more benfits over time.
+![Detailed Benefits](https://i.imgur.com/fuyrKGa.png)
+
+- __The Footer__ 
+
+  - The footer section includes links to the relevant social media sites for Solar. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
+
+![Footer](https://i.imgur.com/gEgcg2k.png)
 
 <h1>GALLERY</h1>
 
@@ -64,11 +89,6 @@ Profitability grid.
 
 <h2>>And at 549 x it's 1 colum scroll.</h2>
 <img src="https://i.imgur.com/G1zPdv8.png"></p>
-
-
-<h1><strong>Footer with Copyright and social links with icons</strong></h1>
-<img src="https://i.imgur.com/gEgcg2k.png">
-
 
 <h1>User feedback/bugs found</h1>
 
