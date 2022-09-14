@@ -49,10 +49,6 @@ Clients intrested in solar pannel types and wanting to know more.
 
 - __The Sign Up Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
-
-- __The Sign Up Page__
-
   - This page will allow the user to get contact Solar to start their journey with the community. The user will be asked to submit their full name and email address.
 
 <h1><strong>Benefits with fixed backkground</strong></h1>
