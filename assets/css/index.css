@@ -47,6 +47,7 @@ h2 {
 
 
 #menu {
+    float: right;
     font-size: 110%;
     letter-spacing: 4px;
 }
@@ -286,6 +287,7 @@ footer>p {
 
 .container {
     display: flex;
+    clear: both;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -302,7 +304,7 @@ footer>p {
     font-size: 3em;
     font-weight: bolder;
     padding-bottom: 10px;
-    border-bottom: 3px solid #222;
+    
 
 }
 

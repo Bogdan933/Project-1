@@ -239,7 +239,7 @@ input:focus, textarea:focus {
 
 #logo,
 #menu {
-  line-height: 75px;
+  line-height: 10px;
 }
 
 #menu li {
