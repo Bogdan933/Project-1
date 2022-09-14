@@ -1,6 +1,6 @@
 # Solar 
 Website made to display benefits of using solar power and with a gallery displaying the 3 types of solar panel materials that can be used, and with a contact form for further questions.
-<li>Clients intrested in solar pannel types and wanting to know more.</li>  
+Clients intrested in solar pannel types and wanting to know more. 
 
 ![Responsice Mockup](https://i.imgur.com/LRsjibu.png)
 
@@ -40,40 +40,20 @@ Website made to display benefits of using solar power and with a gallery display
 
 ![Footer](https://i.imgur.com/gEgcg2k.png)
 
-<h1>GALLERY</h1>
+- __Gallery__
 
-<p><strong>For the Panel Gallery heading underline idea I want to give credit Tech2, youtube link is: 
-https://www.youtube.com/watch?v=Trw_9lisYVY&t=798s&ab_channel=Tech2etc
+  - The gallery will provide the user with solar panel materials to see what they wish for aesthetically . 
+  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
 
-Link to document: https://drive.google.com/drive/folders/1tHCYW4uvWmWTbGcQZlRvYxval1IAO8xS</strong>
-<img src="https://i.imgur.com/EgI0NOV.png">
+![Gallery](https://i.imgur.com/6nNpw5Q.png)
 
-<li>I made a normal 3 box flex container for the 3 typs of solar images since it was the method that worked best for me
-The 3 images flex direction into colum at 765px X.</li>
-<img src="https://i.imgur.com/bhMS95V.png">
+- __The Sign Up Page__
 
-<li>On big devices the 3 images display in a line.</li>
+  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
 
-<img src="https://i.imgur.com/6nNpw5Q.png"></p>
+- __The Sign Up Page__
 
-
-<h1>Contact Form.</h1>
-
-<p><strong>I want to credit the contact form to Sefyudem, https://github.com/sefyudem/Contact-Us-Form/blob/master/style.css</strong>
-
-<li>I added the solar panel check list next to the text input for better user experience and information. 
-Back ground image aswell is changed and i choose that background because of the ambiet orange light and white it displays.
-Container-box right (solar checklist image) is set to display:none; when viewed on mobile devices and is only visible on 1200px and up.</li>
-
-<li>Preview of the contact page on big display.</li>
-
-<img src="https://i.imgur.com/FBdCtIn.png">
-
-<h2>Smaller display for a clean minimalistic look.</h2>
-
-<img src="https://i.imgur.com/GhVDCKs.png"></p>
-
-
+  - This page will allow the user to get contact Solar to start their journey with the community. The user will be asked to submit their full name and email address.
 
 <h1><strong>Benefits with fixed backkground</strong></h1>
 <li>I added a 4 grid fixed background for smoother transition to the bottom grid With Profitability text.</li>
