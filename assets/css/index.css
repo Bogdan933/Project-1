@@ -40,6 +40,7 @@ h2 {
     float: left;
     font-size: 280%;
     margin-left: 30px;
+    width: 30%;
 }
 
 /* navigation links */
@@ -47,7 +48,7 @@ h2 {
 
 
 #menu {
-    float: right;
+    width: 100%;
     font-size: 110%;
     letter-spacing: 4px;
 }
@@ -58,12 +59,13 @@ h2 {
 }
 
 #menu li {
-    float: right;
+    
     list-style-type: none;
     margin-right: 25px;
 }
 
 #menu a {
+    float: right;
     text-decoration: none;
     color: inherit;
 }
@@ -372,9 +374,6 @@ footer>p {
         width: inherit;
     }
 
-    footer {
-        text-align: center;
-    }
 
     #photo {
         column-count: 1;

@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 body {
 	  background:#2d3b36 url(http://andstud.io/wp-content/uploads/2014/03/blurrrr2.jpg)no-repeat center center fixed;
@@ -9,15 +8,11 @@ body {
     padding-top: 0px;
 }
 
-h1 {
-   color: #fff; 
-   text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
-   padding-top: 80px;
-   font-size: 100px; 
-   font-weight: 700;
-   text-align: center;
-   font-family: 'Source Sans Pro', sans-serif;
-   margin: 0px;
+section h1 {
+  width: 100%;
+  clear: both;
+  text-align: center;
+  padding-top: 7%;
 }
 
 form {
@@ -239,6 +234,7 @@ input:focus, textarea:focus {
 
 #logo,
 #menu {
+  
   line-height: 10px;
 }
 
@@ -260,6 +256,8 @@ input:focus, textarea:focus {
 .active {
   border-bottom: 1px solid #000000
 }
+
+
 
 /* Footer */
 
