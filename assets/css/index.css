@@ -209,7 +209,7 @@ footer>p {
     font-size: 1rem;
     padding-bottom: 0.5rem;
 }
-
+/*bottom grid*/
 .bottom-grid {
     padding: 5em;
     display: grid;
@@ -380,14 +380,7 @@ footer>p {
 }
 
 /* For small screens sizes from 800px wide and down */
-@media screen and (max-width: 800px) {
 
-    #hero-image {
-        width: 80%;
-        height: 600px;
-        margin: 0 auto;
-    }
-}
 
 @media only screen and (max-width: 769px) {
 

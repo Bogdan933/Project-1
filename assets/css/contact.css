@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 body {
 	  background:#2d3b36 url(http://andstud.io/wp-content/uploads/2014/03/blurrrr2.jpg)no-repeat center center fixed;
   	-webkit-background-size: cover;
@@ -230,6 +231,35 @@ input:focus, textarea:focus {
     .nameinput, .emailinput, #wpcf7-f156-p143-o1\20 formwrap > form > p > span.wpcf7-form-control-wrap.Message > textarea { width: 225px !important; }
   .btn { width: 110px; }
 }
+/* nav bar and manu  */
+#menu {
+  font-size: 110%;
+  letter-spacing: 2px;
+}
+
+#logo,
+#menu {
+  line-height: 75px;
+}
+
+#menu li {
+  float: right;
+  list-style-type: none;
+  margin-right: 25px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu a:hover {
+  border-bottom: 1px solid #000000
+}
+
+.active {
+  border-bottom: 1px solid #000000
+}
 
 /* Footer */
 
@@ -239,59 +269,43 @@ input:focus, textarea:focus {
 }
 
 footer {
-  background-color: #1b1b6a;
-  padding: 1em;
-  text-align: center;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: 3;
+    background-color: #1b1b6a;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
 }
 
 footer>span {
-  color: silver;
+    color: silver;
 }
 
 footer>a {
-  color: rgb(207, 209, 217);
-  text-decoration: none;
-  padding: 0 5px;
-  font-size: 1rem;
+    color: rgb(207, 209, 217);
+    text-decoration: none;
+    padding: 0 5px;
+    font-size: 1rem;
 }
 
 footer>p {
-  text-align: center;
-  color: silver;
-  font-size: 1.1rem;
-  padding-bottom: 0.5rem;
+    color: silver;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
 }
 
-.bottom-grid {
-  padding: 5em;
-  display: grid;
-  grid-gap: 2em;
-
-}
-
-.ben-1 {
-  padding: 2em;
-  border-radius: .3em;
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0, 1)
-}
-
-.ben-1 p {
-  margin-top: 0;
-}
-
-.ben-1 span {
-  text-decoration: underline;
-  font-weight: bold;
-  position: relative;
-  margin-left: 15px;
-}
 
 @media screen and (max-width: 950px){
+
+  #menu {
+    clear: left;
+    float: right;
+    margin-left: 0;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
 
 footer {
   text-align: center;
