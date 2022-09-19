@@ -189,7 +189,7 @@ h2 {
 
 footer {
     background-color: #265E9C;
-    padding: 1em;
+    padding: 1em 0;
     text-align: center;
     width: 100%;
     position: fixed;
@@ -200,13 +200,14 @@ footer {
 
 footer>span {
     color: silver;
+    margin: 0 10px;
 }
 
 footer>a {
     color: rgb(207, 209, 217);
     text-decoration: none;
     padding: 0 5px;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 footer>p {
