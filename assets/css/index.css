@@ -7,15 +7,11 @@
 }
 
 body {
-    block-size: fit-content;
-    font-family: Lato, sans-serif;
-    background-color: #fafafa;
-    /*background-size: cover;*/
-    width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-
+    background:#2d3b36 url(http://andstud.io/wp-content/uploads/2014/03/blurrrr2.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* headings and logo */
@@ -25,7 +21,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 5px;
     text-align: left;
-    color: #000000;
+    color: #fff;
 
 }
 
@@ -33,7 +29,7 @@ h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #000000;
+    color: #fff;
 }
 
 #logo {
@@ -118,6 +114,10 @@ h2 {
     width: 100%;
     font-weight: 100;
     margin-top: 2rem;
+}
+
+.wrap-content span {
+    color: #fff;
 }
 
 .main-content {
@@ -227,6 +227,7 @@ footer>p {
 }
 
 .ben-1 p {
+    color: #fff;
     margin-top: 0;
 }
 
@@ -270,12 +271,38 @@ footer>p {
     text-align: center;
 }
 
+.poly p {
+        color: #fff;
+        width:200px;
+        text-align:center;
+        display:block;
+        background-color: transparent;
+        border: 1px solid transparent;
+        margin-left: 70px;
+        margin-bottom: 1px;
+        float:left;
+      
+}
+
 .mono {
     font-weight: bold;
     font-style: italic;
     font-size: larger;
     padding: 15px;
     text-align: center;
+}
+
+.mono p {
+    color: #fff;
+    width:200px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-left: 70px;
+    margin-bottom: 1px;
+    float: center;
+  
 }
 
 .thin {
@@ -286,6 +313,18 @@ footer>p {
     text-align: center;
 }
 
+.thin p  {
+    color: #fff;
+    width:200px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 70px;
+    margin-bottom: 1px;
+    float: right;
+  
+}
 
 .container {
     display: flex;
