@@ -7,7 +7,7 @@
 }
 
 body {
-    background:#2d3b36 url(http://andstud.io/wp-content/uploads/2014/03/blurrrr2.jpg)no-repeat center center fixed;
+    background-image: linear-gradient(to bottom right, #F7FE89 5%, #F9DE74, #FDB965, #F2946B, #EB697D 80%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,11 +33,13 @@ h2 {
 }
 
 #logo {
+    color: #1b1b6a;
     float: left;
     font-size: 280%;
     margin-left: 30px;
     
 }
+
 
 /* navigation links */
 
