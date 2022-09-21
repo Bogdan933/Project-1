@@ -106,8 +106,7 @@ https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/co
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The text for the Home page was taken from Wikipedia Article.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 __Programs Used__
