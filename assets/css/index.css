@@ -206,7 +206,7 @@ footer>span {
 footer>a {
     color: rgb(207, 209, 217);
     text-decoration: none;
-    padding: 0 5px;
+    padding: 0 15px;
     font-size: 1.5rem;
 }
 
@@ -214,6 +214,7 @@ footer>p {
     color: silver;
     font-size: 1rem;
     padding-bottom: 0.5rem;
+    padding-right: 0.3rem;
 }
 /*bottom grid*/
 .bottom-grid {
