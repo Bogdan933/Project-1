@@ -10,49 +10,43 @@ Clients intrested in solar pannel types and wanting to know more.
  
 
 - __The landing page image__
-
-  - 
-
+  - Well filmed intro for the landing page, presenting the user with the goal of the website they are on.
+  - Solar roof designing / installation.
 ![Landing Page](https://i.imgur.com/aE0NIVS.png)
 
 - __Navigation Bar__
-
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact form page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 ![Nav Bar](https://i.imgur.com/ASDWh01.png)
 
 - __4 Detailed Benefits__
-
   - This section will allow the user to see exactly in more detail the several major benefits. 
   - This section will be updated as with more benfits over time.
 ![Detailed Benefits](https://i.imgur.com/ISxv9cD.png)
 
 - __5 Completed projects__
   - This section is displaying the company's finished projects with solar installment.
-![Projects Dne](https://i.imgur.com/X5WHxBJ.png)
-- __The Footer__ 
+![Projects Done](https://i.imgur.com/X5WHxBJ.png)
 
+- __The Footer__ 
   - The footer section includes links to the relevant social media sites for Solar. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
-
 ![Footer](https://i.imgur.com/mLXFhPN.png)
 
 - __Gallery__
-
   - The gallery will provide the user with solar panel materials to see what they wish for aesthetically . 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
-  - The landing page on gallery is animated for a smoother transition
+  - This section is valuable to the user as they will be able to easily identify the types of solar roofs they can encounter.
+  - The landing page on gallery is animated for a smoother transition to the page.
 ![Gallery](https://i.imgur.com/feWsDxK.png)
 
 - __Inspiration Images__
-- User is presented with realistic and aesthethic designing for inspirational purposes.
+  - User is presented with realistic and aesthethic designing for inspirational purposes.
 ![inspiration images](https://i.imgur.com/mglO6cC.png)
 
 - __Panel Information and technology__
-- User is also presented at the bottom of the gallery page with additional information about the product quality and the technology behind each panel type.
+  - User is also presented at the bottom of the gallery page with additional information about the product quality and the technology behind each panel type.
 ![panel](https://i.imgur.com/eOi4q2u.png)
 - __Contact Form__
-
   - This page will allow the user to get contact Solar to start their journey with the community. The user will be asked to submit their full name and email address, on top of that he/she can choose what type of inquiry they are about.
 ![contact](https://i.imgur.com/u5As3e9.png)
 
@@ -106,10 +100,13 @@ Menu bug
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Credits 
-- I want to credit Code Institute for the navigation bar design and hero image animation.
+- I want to credit Code Institute for the navigation bar design and hero image animation:
+  - https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/?child=last
 
-https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/?child=last
-
+- To Css-tricks for the projects grids hover border effect: 
+  - https://css-tricks.com/animating-border
+- Panel information credit to: 
+  - https://news.energysage.com/monocrystalline-vs-polycrystalline-solar
 ### Content 
 
 - The text for the Home page was taken from Wikipedia Article.
@@ -153,11 +150,11 @@ The live link can be found here - https://bogdan933.github.io/Project-1/
       - 748px wide and down
 
 
-- SEO and lighthouse scores 
-<img src="https://i.imgur.com/dK6J9jw.png">
+- Lighthouse scores 
 
-- Lighthouse mobile score
-<img src="https://i.imgur.com/DjEiAdB.png">
-- Lighthouse Desktop score
-<img src="https://i.imgur.com/Bw8SXTF.png">
+
+- Desktop score
+<img src="https://i.imgur.com/I4OZ5ke.png">
+- Mobile score
+<img src="https://i.imgur.com/nd9qNCk.png">
 
