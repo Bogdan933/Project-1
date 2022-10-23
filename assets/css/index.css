@@ -134,7 +134,6 @@ h2 {
     margin: 0 auto;
     text-align: justify;
     overflow: hidden;
-    border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
 }
 
 .wrap-content {
@@ -160,13 +159,13 @@ h2 {
 	place-items: center;
 	min-height: 200px;
 	padding: 1rem;
-    box-shadow: 0px 0px 0px 5px #FFDAB9;
+    box-shadow: 0px 0px 0px 5px #51A3A3;
     transition: box-shadow 0.25s linear;
     margin: 0.5em;
     
 }
 .main-content:hover {
-    box-shadow: 0px 0px 0px 10px #FC5185;
+    box-shadow: 0px 0px 0px 10px #3B3561;
 }
 
 /*  zoom for hero image */
@@ -309,7 +308,7 @@ footer>p {
     margin-bottom: 1rem;
 }
 
-/* projects grid */
+/* projects grid credit for border atributes https://css-tricks.com/animating-border/*/
 
 .projects-grid {
     background-color: white;
@@ -319,8 +318,6 @@ footer>p {
     padding: 0 4px;
     gap: 16px;
 
-    
-    
   }
   
   .column {
