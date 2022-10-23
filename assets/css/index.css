@@ -88,16 +88,18 @@ h2 {
     margin-bottom: 100px;
     position: relative;
     overflow: hidden;
-    min-height: 100vh;
-    min-width: 50%;
+    height: 80vh;
+    width: 100%;
+}
+.hero-video h1{
+    position: obsolute;
+    bottom: 0;
+    padding: 3%;
 }
 
 .video-bg{
     position: absolute;
     z-index: -1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     min-width: 100%;
     min-height: 100%;
 }
@@ -145,17 +147,21 @@ h2 {
 
 .wrap-content span {
     color: rgb(16, 15, 15);
-    transition: box-shadow 0.25s linear;
+    padding: 0;
+    margin-bottom: 2.5rem;
     margin: 0.5em;
     font-size: 3rem;
     
 }
 .main-content span:hover {
     box-shadow: 0px 0px 0px 15px #51A3A3;
+    border-bottom: 5px solid #3B3561;
 }
 .wrap-content p {
     color: rgb(16, 15, 15);
     text-align: center;
+    margin-bottom: 1rem;
+    padding: 0 3%;
 }
 
 .main-content {
@@ -319,27 +325,28 @@ footer>p {
     display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
     flex-wrap: wrap;
-    padding: 0 4px;
-    gap: 16px;
+    padding: 0 10px 0 50px;
+    
 
   }
   
   .column {
     flex: 100%;
-    max-width: 100%;
+    width: 100%;
   }
   
   .column img {
     vertical-align: middle;
+    margin-bottom: 50px;
   }
   
   .container-projects {
     position: relative;
-    width: 100%;
+    width: 90%;
     box-shadow: 0px 0px 0px 5px #44E5E7;
     transition: box-shadow 0.25s linear;
     margin: 0.5em;
-    max-width: 95%;
+    max-width: 100%;
   }
   .container-projects:hover {
     box-shadow: 0px 0px 0px 10px #59D2FE;
@@ -347,7 +354,7 @@ footer>p {
   .image {
     display: block;
     width: 100%;
-    height: auto;
+    height: 350px;
   }
   .overlay {
     position: absolute;
@@ -450,7 +457,7 @@ footer>p {
 
 .panels img {
     width: 100%;
-    height: auto;
+    height: 300px;
 }
 
 .mono {
