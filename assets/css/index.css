@@ -76,7 +76,33 @@ h2 {
     border-bottom: 1px solid #000000
 }
 
-/* Hero image and cover text */
+/*Hero-video and cover text */
+.hero-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*background: #333;*/
+    background: rgba(0, 0, 0, 0.25);
+    color: white;
+    margin-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    min-width: 50%;
+}
+
+.video-bg{
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Hero image panel gallery */
 
 #hero-outer {
     height: 600px;
