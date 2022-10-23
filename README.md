@@ -2,26 +2,24 @@
 Website made to display benefits of using solar power and with a gallery displaying the 3 types of solar panel materials that can be used, and with a contact form for further questions.
 Clients intrested in solar pannel types and wanting to know more. 
 
-![Responsice Mockup](https://i.imgur.com/9DlMuMc.png)
+![Responsice Mockup](https://i.imgur.com/KubakSm.png)
 
 ## Features
 
 ### Existing Features
+ 
+
+- __The landing page image__
+
+  - 
+
+![Landing Page](https://i.imgur.com/aE0NIVS.png)
 
 - __Navigation Bar__
 
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact form page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 ![Nav Bar](https://i.imgur.com/ASDWh01.png)
- 
-
-- __The landing page image__
-
-  - The landing includes a photograph with text overlay to allow the user to see exactly what the site would be applicable to. 
-  - This section introduces the user to solar panels with an eye catching animation to grab their attention
-
-![Landing Page](https://i.imgur.com/ZZm0ZE8.png)
-
 
 - __4 Detailed Benefits__
 
@@ -29,33 +27,41 @@ Clients intrested in solar pannel types and wanting to know more.
   - This section will be updated as with more benfits over time.
 ![Detailed Benefits](https://i.imgur.com/ISxv9cD.png)
 
+- __5 Completed projects__
+  - This section is displaying the company's finished projects with solar installment.
+![Projects Dne](https://i.imgur.com/X5WHxBJ.png)
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Solar. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://i.imgur.com/Sali8E2.png)
+![Footer](https://i.imgur.com/mLXFhPN.png)
 
 - __Gallery__
 
   - The gallery will provide the user with solar panel materials to see what they wish for aesthetically . 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+  - The landing page on gallery is animated for a smoother transition
+![Gallery](https://i.imgur.com/feWsDxK.png)
 
-![Gallery](https://i.imgur.com/28PEMzb.png)
+- __Inspiration Images__
+- User is presented with realistic and aesthethic designing for inspirational purposes.
+![inspiration images](https://i.imgur.com/mglO6cC.png)
 
+- __Panel Information and technology__
+- User is also presented at the bottom of the gallery page with additional information about the product quality and the technology behind each panel type.
+![panel](https://i.imgur.com/eOi4q2u.png)
 - __Contact Form__
 
-  - This page will allow the user to get contact Solar to start their journey with the community. The user will be asked to submit their full name and email address.
-
-
-
+  - This page will allow the user to get contact Solar to start their journey with the community. The user will be asked to submit their full name and email address, on top of that he/she can choose what type of inquiry they are about.
+![contact](https://i.imgur.com/u5As3e9.png)
 
 # Color Scheme
 
 ![Color Scheme](https://i.imgur.com/YCm4qjj.png)
 
 ## Bugs/UserFeedback
-
+- <h1>Early stage development</h1>
 - When opening from some IOS devices the panel header miss-aligns
 <img src="https://i.imgur.com/1VZ4SIu.png">
 
