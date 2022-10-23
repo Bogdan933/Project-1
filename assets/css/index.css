@@ -145,14 +145,13 @@ h2 {
 
 .wrap-content span {
     color: rgb(16, 15, 15);
-    box-shadow: 0px 0px 0px 10px #51A3A3;
     transition: box-shadow 0.25s linear;
     margin: 0.5em;
     font-size: 3rem;
     
 }
 .main-content span:hover {
-    box-shadow: 0px 0px 0px 15px #3B3561;
+    box-shadow: 0px 0px 0px 15px #51A3A3;
 }
 .wrap-content p {
     color: rgb(16, 15, 15);
@@ -256,7 +255,9 @@ footer>p {
     padding-bottom: 0.5rem;
     padding-right: 0.3rem;
 }
+
 /*bottom grid*/
+
 .bottom-grid {
     padding: 2em;
     display: grid;
