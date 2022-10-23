@@ -272,6 +272,13 @@ footer>p {
 .image-grid-row-2 {
 	grid-row: span 2;
 }
+/* Anything under 1024px */
+@media screen and (max-width: 1024px) {
+	.image-grid {
+		--num-cols: 2;
+		--row-height: 200px;
+	}
+}
 
 
 .holdingcontainer {
