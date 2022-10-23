@@ -134,7 +134,7 @@ h2 {
     margin: 0 auto;
     text-align: justify;
     overflow: hidden;
-
+    border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
 }
 
 .wrap-content {
@@ -146,15 +146,27 @@ h2 {
 
 .wrap-content span {
     color: #fff;
+    
+}
+.wrap-content p {
+    color: #fff;
+    text-align: center;
 }
 
 .main-content {
     
-    padding: 2rem 0 2rem 0;
-    text-align: center;
-    font-size: xx-large;
-    width: 100%;
-    margin-bottom: 1rem;
+    font-size: 1.6rem;
+	display: grid;
+	place-items: center;
+	min-height: 200px;
+	padding: 1rem;
+    box-shadow: 0px 0px 0px 5px #FFDAB9;
+    transition: box-shadow 0.25s linear;
+    margin: 0.5em;
+    
+}
+.main-content:hover {
+    box-shadow: 0px 0px 0px 10px #FC5185;
 }
 
 /*  zoom for hero image */
@@ -268,13 +280,45 @@ footer>p {
     margin-left: 15px;
 }
 
+/* projects grid wraper */
+.grid-wrap-section {
+    background-color: white;
+    margin: 0 auto;
+    text-align: justify;
+    overflow: hidden;
+
+}
+
+.grid-wrap-content {
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+    margin-top: 2rem;
+}
+
+.grid-wrap-content p {
+    color: rgb(11, 10, 10);
+}
+
+.grid-main-content {
+    
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    font-size: xx-large;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
 /* projects grid */
 
 .projects-grid {
+    background-color: white;
     display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     flex-wrap: wrap;
     padding: 0 4px;
     gap: 16px;
+
     
     
   }
@@ -291,8 +335,14 @@ footer>p {
   .container-projects {
     position: relative;
     width: 100%;
+    box-shadow: 0px 0px 0px 5px #44E5E7;
+    transition: box-shadow 0.25s linear;
+    margin: 0.5em;
+    max-width: 95%;
   }
-  
+  .container-projects:hover {
+    box-shadow: 0px 0px 0px 10px #59D2FE;
+  }
   .image {
     display: block;
     width: 100%;
@@ -380,7 +430,7 @@ footer>p {
 	}
 }
 
-
+/* materials information credit https://news.energysage.com/monocrystalline-vs-polycrystalline-solar/ */
 .holdingcontainer {
     display: flex;
     max-width: 1200px;
