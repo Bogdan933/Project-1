@@ -440,7 +440,6 @@ footer>p {
 
 .panels {
     margin: 5px;
-    border: 1px solid #ccc;
     float: left;
     width: 390px;
 }
@@ -465,8 +464,6 @@ footer>p {
     width:200px;
     text-align:center;
     display:block;
-    background-color: transparent;
-    border: 1px solid transparent;
     margin: 0 auto;
     margin-bottom: 1px;
     float: center;
@@ -497,9 +494,7 @@ footer>p {
 
 }
 
-.container .heading h3 span {
-    font-weight: 100;
-}
+
 
 /* MEDIA SCREEN SIZES */
 /* For large to medium screens sizes from 1200px wide and down */
