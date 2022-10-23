@@ -268,26 +268,6 @@ footer>p {
 }
 
 
-.poly {
-    font-weight: bold;
-    font-style: italic;
-    font-size: larger;
-    padding: 15px;
-    text-align: center;
-}
-
-.poly p {
-        color: #fff;
-        width:200px;
-        text-align:center;
-        display:block;
-        background-color: transparent;
-        border: 1px solid transparent;
-        margin-left: 70px;
-        margin-bottom: 1px;
-        float:left;
-      
-}
 
 .mono {
     font-weight: bold;
@@ -298,7 +278,7 @@ footer>p {
 }
 
 .mono p {
-    color: #fff;
+    color: rgb(12, 12, 12);
     width:200px;
     text-align:center;
     display:block;
@@ -309,26 +289,7 @@ footer>p {
     float: center;
 }
 
-.thin {
-    font-weight: bold;
-    font-style: italic;
-    font-size: larger;
-    padding: 15px;
-    text-align: center;
-}
 
-.thin p  {
-    color: #fff;
-    width:200px;
-    text-align:center;
-    display:block;
-    background-color: transparent;
-    border: 1px solid transparent;
-    margin-right: 70px;
-    margin-bottom: 1px;
-    float: right;
-  
-}
 
 .container {
     display: flex;
