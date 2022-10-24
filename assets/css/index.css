@@ -7,7 +7,8 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom right, #F7FE89 5%, #F9DE74, #FDB965, #F2946B, #EB697D 80%);
+    background-color: white;
+    /* background-image: linear-gradient(to bottom right, #F7FE89 5%, #F9DE74, #FDB965, #F2946B, #EB697D 80%);*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,7 +34,7 @@ h2 {
 }
 
 #logo {
-    color: #265E9C;
+    color: #1E2952;
     float: left;
     font-size: 280%;
     margin-left: 30px;
@@ -105,14 +106,14 @@ h2 {
 /* Hero image panel gallery */
 
 #hero-outer {
-    height: 600px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image {
-    background: url("https://i.imgur.com/dHo8Tzz.jpg") no-repeat center center;
+    background: url("https://i.imgur.com/tzguRuV.png") no-repeat center center;
     height: 600px;
     display: flex;
 
@@ -124,8 +125,18 @@ h2 {
 
     /* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
-    animation-duration: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
+}
+/*  zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(0.8);
+    }
+
+    to {
+        transform: scale(1);
+    }
 }
 
 
@@ -152,7 +163,6 @@ h2 {
     
 }
 .main-content span:hover {
-    box-shadow: 0px 0px 0px 15px #51A3A3;
     border-bottom: 5px solid #3B3561;
 }
 .wrap-content p {
@@ -174,16 +184,6 @@ h2 {
 }
 
 
-/*  zoom for hero image */
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
-}
 
 /* BENEFITS grid container */
 
@@ -212,11 +212,12 @@ h2 {
 }
 
 .grid-container {
-    background: url('https://i.imgur.com/tZUV9rF.jpg')center center / cover no-repeat fixed;
+    background: url('https://i.imgur.com/Ofe8v7D.jpg')center center / cover no-repeat fixed;
     display: grid;
     grid-auto-rows: 150px;
     grid-gap: 10px;
     padding: 10px;
+    height: 35rem;
 }
 
 .grid-container>div {
@@ -276,11 +277,12 @@ footer>p {
 }
 
 .ben-1 p {
-    color: #fff;
+    color: rgb(12, 12, 12);
     margin-top: 0;
 }
 
-.ben-1 span {
+.ben-1 h2 {
+    color: #1E2952;
     text-decoration: underline;
     font-weight: bold;
     position: relative;
@@ -536,7 +538,7 @@ footer>p {
 
     #hero-image {
         width: 100%;
-        height: 600px;
+        height: 385px;
         margin: 0 auto;
         
     }
