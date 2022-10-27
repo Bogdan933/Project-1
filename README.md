@@ -45,7 +45,7 @@ Clients intrested in solar pannel types and wanting to know more.
 ![panel](https://i.imgur.com/UdDLa1o.png)
 - __Contact Form__
   - This page will allow the user to get contact Solar to start their journey with the community. The user will be asked to submit their full name and email address, on top of that he/she can choose what type of inquiry they are about.
-![contact](https://i.imgur.com/zAnhPlq.png)
+![contact](https://i.imgur.com/Z2SWWHO.png)
 
 
 ## Bugs/UserFeedback
