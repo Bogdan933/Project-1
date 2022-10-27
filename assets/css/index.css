@@ -252,6 +252,9 @@ footer>p {
     margin-left: 15px;
 }
 
+/* bottom grid hover */
+
+
 /* projects grid wraper */
 .grid-wrap-section {
     background-color: white;
@@ -434,7 +437,7 @@ footer>p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px 20px 80px 20px;
+    margin: 20px 20px 10px 20px;
 }
 
 .container .heading {
@@ -447,11 +450,8 @@ footer>p {
     font-size: 3em;
     font-weight: bolder;
     padding-bottom: 10px;
-    
-
+  
 }
-
-
 
 
 /* MEDIA SCREEN SIZES */

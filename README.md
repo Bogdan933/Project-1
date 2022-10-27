@@ -2,7 +2,7 @@
 Website made to display benefits of using solar power and with a gallery displaying the 3 types of solar panel materials that can be used, and with a contact form for further questions.
 Clients intrested in solar pannel types and wanting to know more. 
 
-![Responsice Mockup](https://i.imgur.com/KubakSm.png)
+![Responsice Mockup](https://i.imgur.com/BsYmwpm.png)
 
 ## Features
 
@@ -12,47 +12,41 @@ Clients intrested in solar pannel types and wanting to know more.
 - __The landing page image__
   - Well filmed intro for the landing page, presenting the user with the goal of the website they are on.
   - Solar roof designing / installation.
-![Landing Page](https://i.imgur.com/aE0NIVS.png)
+![Landing Page](https://i.imgur.com/AABV3Le.png)
 
 - __Navigation Bar__
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact form page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-![Nav Bar](https://i.imgur.com/ASDWh01.png)
+![Nav Bar](https://i.imgur.com/oBn3UBp.png)
 
 - __4 Detailed Benefits__
   - This section will allow the user to see exactly in more detail the several major benefits. 
   - This section will be updated as with more benfits over time.
-![Detailed Benefits](https://i.imgur.com/ISxv9cD.png)
+![Detailed Benefits](https://i.imgur.com/liXhvwu.png)
 
 - __5 Completed projects__
   - This section is displaying the company's finished projects with solar installment.
-![Projects Done](https://i.imgur.com/X5WHxBJ.png)
+![Projects Done](https://i.imgur.com/aVdcSP4.png)
 
 - __The Footer__ 
   - The footer section includes links to the relevant social media sites for Solar. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 ![Footer](https://i.imgur.com/mLXFhPN.png)
 
-- __Gallery__
+- __Gallery and Inspiration Images__
   - The gallery will provide the user with solar panel materials to see what they wish for aesthetically . 
   - This section is valuable to the user as they will be able to easily identify the types of solar roofs they can encounter.
-  - The landing page on gallery is animated for a smoother transition to the page.
-![Gallery](https://i.imgur.com/feWsDxK.png)
-
-- __Inspiration Images__
   - User is presented with realistic and aesthethic designing for inspirational purposes.
-![inspiration images](https://i.imgur.com/mglO6cC.png)
+![Gallery](https://i.imgur.com/DCs2a8C.png)
+
 
 - __Panel Information and technology__
   - User is also presented at the bottom of the gallery page with additional information about the product quality and the technology behind each panel type.
-![panel](https://i.imgur.com/eOi4q2u.png)
+![panel](https://i.imgur.com/UdDLa1o.png)
 - __Contact Form__
   - This page will allow the user to get contact Solar to start their journey with the community. The user will be asked to submit their full name and email address, on top of that he/she can choose what type of inquiry they are about.
-![contact](https://i.imgur.com/u5As3e9.png)
+![contact](https://i.imgur.com/zAnhPlq.png)
 
-# Color Scheme
-
-![Color Scheme](https://i.imgur.com/YCm4qjj.png)
 
 ## Bugs/UserFeedback
 - <h1>Early stage development</h1>
@@ -62,13 +56,6 @@ Clients intrested in solar pannel types and wanting to know more.
 - On mobile device display ratio, the menu tab 'Home' is under contact form and not forming all 3 in row. This problem is only in Gallery and Contact Form pages
 - This seems to have been fixed by adding the block-size: fit-content rule to body for 950px and down, code line 460.</p>
 
-- Over flowing right bug
- - ONGOING issue: Seems there is a bug where opening developer tools makes the site aligs to much to the right but when viewed another time it perfectly fits. I have not found a fix for yet and i will continue trying to pin it down.
- - Fixed by changing in the index.css file on line 386 inside the media quiery of 950px in the body element i removed width: fit-content; atribute and this fixed the issue.
-
- <strong>CREDIT goes to my class colleague Mia Rasmussen</strong> for helping me trouble shoot this issue I have had since the begining.</strong>
-<img src="https://i.imgur.com/2gvTQVE.png">
-<hr>
 
 Menu bug
 - I have fixed this by changing the margin-right of #menu li from 30px to 25px, code line 59.
