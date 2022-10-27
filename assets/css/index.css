@@ -86,7 +86,7 @@ h2 {
     /*background: #333;*/
     background: rgba(0, 0, 0, 0.25);
     color: white;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     position: relative;
     overflow: hidden;
     height: 80vh;
@@ -102,11 +102,6 @@ h2 {
     min-width: 100%;
     min-height: 100%;
 }
-
-/* Hero image panel gallery */
-
-
-
 
 /* main content */
 .wrap-section {
@@ -185,7 +180,7 @@ h2 {
     grid-auto-rows: 150px;
     grid-gap: 10px;
     padding: 10px;
-    height: 35rem;
+    height: 300px;
 }
 
 .grid-container>div {
@@ -235,7 +230,7 @@ footer>p {
     padding: 2em;
     display: grid;
     grid-gap: 2em;
-    margin-bottom: 4em;
+    
 }
 
 .ben-1 {
@@ -569,7 +564,7 @@ footer>p {
 
 @media (min-width: 750px) {
     .bottom-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     #hero-image {
