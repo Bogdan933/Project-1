@@ -144,7 +144,7 @@ The live link can be found here - https://bogdan933.github.io/Project-1/
 
 
 - Desktop score
-<img src="https://i.imgur.com/I4OZ5ke.png">
+<img src="https://i.imgur.com/jaLlsM1.png">
 - Mobile score
-<img src="https://i.imgur.com/nd9qNCk.png">
+<img src="https://i.imgur.com/sW7MYg2.png">
 
