@@ -43,6 +43,7 @@ Clients intrested in solar pannel types and wanting to know more.
 - __Panel Information and technology__
   - User is also presented at the bottom of the gallery page with additional information about the product quality and the technology behind each panel type.
 ![panel](https://i.imgur.com/UdDLa1o.png)
+
 - __Contact Form__
   - This page will allow the user to get contact Solar to start their journey with the community. The user will be asked to submit their full name and email address, on top of that he/she can choose what type of inquiry they are about.
 ![contact](https://i.imgur.com/Z2SWWHO.png)

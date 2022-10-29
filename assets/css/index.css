@@ -226,7 +226,7 @@ footer>p {
 
 /*bottom grid*/
 
-.bottom-grid {
+.benefits-grid {
     padding: 2em;
     display: grid;
     grid-gap: 2em;
@@ -556,14 +556,14 @@ footer>p {
     }
 }
 @media (min-width: 550px) {
-    .bottom-grid {
+    .benefits-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
 }
 
 @media (min-width: 750px) {
-    .bottom-grid {
+    .benefits-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
