@@ -41,6 +41,29 @@ h2 {
     
 }
 
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #d2e9f4;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 
 /* navigation links */
 
@@ -246,7 +269,6 @@ footer>p {
 
 .ben-1 h2 {
     color: #1E2952;
-    text-decoration: underline;
     font-weight: bold;
     position: relative;
     margin-left: 15px;
@@ -272,7 +294,10 @@ footer>p {
 }
 
 .grid-wrap-content p {
-    color: rgb(11, 10, 10);
+    color: #1E2952;
+    font-weight: bold;
+    position: relative;
+    margin-left: 15px;
 }
 
 .grid-main-content {

@@ -95,6 +95,8 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
   - https://css-tricks.com/animating-border
 - Panel information credit to: 
   - https://news.energysage.com/monocrystalline-vs-polycrystalline-solar
+- For the animated hover underline I credit to 
+  - https://www.w3resource.com/html-css-exercise/html-css-practical-exercises/html-css-practical-exercise-15.php#:~:text=Using%20HTML%2C%20CSS%20create%20an,place%20it%20below%20the%20content.
 ### Content 
 
 - The text for the Home page was taken from Wikipedia Article.
