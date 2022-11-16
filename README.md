@@ -5,12 +5,7 @@
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=qburn93&theme=blue-green)
 ## 3. Contributors Badge
 ![Your Repository's Stats](https://contrib.rocks/image?repo=qburn93/Project-1)
-## 4. Random Joke Generator
-![Jokes Card](https://readme-jokes.vercel.app/api)
-## 5. Profile View Counter
-![Profile View Counter](https://komarev.com/ghpvc/?username=qburn93)
-### Repository View Counter - HITS
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/qburn93/Project-1)
+
 
 # Solar 
 Website made to display benefits of using solar power and with a gallery displaying the 3 types of solar panel materials that can be used, and with a contact form for further questions.
