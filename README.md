@@ -8,7 +8,9 @@
 
 # Solar 
 Website made to display benefits of using solar power and with a gallery displaying the 3 types of solar panel materials that can be used, and with a contact form for further questions.
-Clients intrested in solar pannel types and wanting to know more. 
+Clients intrested in solar pannel types and wanting to know more.
+
+The live link can be found here - https://qburn93.github.io/Project-1/
 
 ![Responsice Mockup](https://i.imgur.com/BsYmwpm.png)
 
